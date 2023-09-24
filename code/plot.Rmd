@@ -1,0 +1,14 @@
+```{r setup, include=FALSE}
+data(airquality)
+
+pdf("airquality_plot.pdf", width = 8, height = 6) 
+plot(airquality$Temp, airquality$Ozone, 
+     xlab = "Temperature (Fahrenheit)", 
+     ylab = "Ozone (ppb)",
+     main = "Scatterplot of Temperature vs. Ozone")
+dev.off()
+```
+
+
+
+

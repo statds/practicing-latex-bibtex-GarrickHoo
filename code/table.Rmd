@@ -1,0 +1,13 @@
+```{r setup, include=FALSE}
+data(airquality)
+
+subset_data <- head(airquality)
+
+table <- as.data.frame(subset_data) 
+
+write.csv(table, file = "airquality_table.csv", row.names = FALSE)
+```
+
+
+
+
